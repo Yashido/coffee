@@ -1,0 +1,32 @@
+/*
+    Title
+    font-family: 'Libre Franklin', sans-serif;
+
+    Head
+    font-family: 'Hind Madurai', sans-serif;
+
+    Body
+    font-family: 'Pavanam', sans-serif;
+*/
+body {
+    margin: 0;
+}
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.hero {
+    background-image: url(resources/img/cup-gddb8165ae_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 6vw;
+}
+.text {
+    margin: 0;
+}
