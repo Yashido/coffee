@@ -11,21 +11,40 @@
 body {
     margin: 0;
 }
+#Nav-bar {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left, .nav-right {
+    margin: 0;
+}
 .nav-ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     gap: 1rem;
     font-family: 'Hind Madurai', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
 }
-.hero {
+#main-body {
     background-image: url(resources/img/cup-gddb8165ae_1920.jpg);
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
+}
+.hero {
     font-family: 'Libre Franklin', sans-serif;
     color: white;
     font-size: 6vw;
+    overflow: hidden;
 }
 .text {
     margin: 0;
