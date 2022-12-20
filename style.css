@@ -20,9 +20,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 5rem;
+    font-size: 3rem;
 }
 .nav-left, .nav-right {
     margin: 0;
+    gap: 1rem;
 }
 .nav-ul {
     display: flex;
